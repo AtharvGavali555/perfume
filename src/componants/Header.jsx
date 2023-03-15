@@ -20,11 +20,11 @@ export const Header = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">HOME</Nav.Link>
-              <Nav.Link href="#action2">DEALS</Nav.Link>
-              <Nav.Link href="#action2">SHOP BY BRANDS</Nav.Link>
+              <Nav.Link href="#action1">Home</Nav.Link>
+              <Nav.Link href="#action2">Deals</Nav.Link>
+              <Nav.Link href="#action2">Shop by brands</Nav.Link>
 
-              <NavDropdown title="SHOP" id="navbarScrollingDropdown">
+              <NavDropdown title="Shop" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Shop</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
                   Another action
@@ -34,19 +34,16 @@ export const Header = () => {
                   Something else here
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#action2">ORDER TRACKING</Nav.Link>
+              <Nav.Link href="#action2">Order tracking</Nav.Link>
               <Nav.Link href="#" disabled>
                 {/* Link */}
               </Nav.Link>
             </Nav>
             <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="btn bg-transparent">
+                <i className="fas fa-search" style={{ color: "white" }}></i>
+              </Button>
+              <Button variant="btn btn-danger outline-success">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>

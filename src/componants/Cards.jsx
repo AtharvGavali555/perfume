@@ -13,15 +13,17 @@ export const Cards = () => {
           <Row>
             <Col>
               {/* <Card style={{ width: "18rem" }}> */}
-              <Card.Img
-                variant="top"
-                src="https://splashfragranceweb.b-cdn.net/wp-content/uploads/2022/11/ic-1.png"
-                style={{ height: "140px", width: "120px" }}
-              />
+              <div className="mx-auto">
+                <Card.Img
+                  variant="top"
+                  src="https://splashfragranceweb.b-cdn.net/wp-content/uploads/2022/11/ic-1.png"
+                  style={{ height: "140px", width: "120px" }}
+                />
+              </div>
               <div className="mt-3">
                 <Card.Body>
                   <div className="mx-auto ms-4">
-                    <Card.Title>SALE</Card.Title>
+                    <Card.Title>Sale</Card.Title>
                   </div>
                 </Card.Body>
               </div>
@@ -37,7 +39,7 @@ export const Cards = () => {
               />
               <div className="mt-3">
                 <Card.Body>
-                  <Card.Title>DESIGNER PERFUMES</Card.Title>
+                  <Card.Title>Designer Perfume </Card.Title>
                 </Card.Body>
               </div>
               {/* </Card> */}
@@ -51,7 +53,7 @@ export const Cards = () => {
               />
               <div className="mt-3">
                 <Card.Body>
-                  <Card.Title>NICHE PERFUMES</Card.Title>
+                  <Card.Title>Nice Perfume</Card.Title>
                 </Card.Body>
               </div>
               {/* </Card> */}
@@ -65,7 +67,7 @@ export const Cards = () => {
               />
               <div className="mt-3">
                 <Card.Body>
-                  <Card.Title>MINIATURES</Card.Title>
+                  <Card.Title>Miniatures</Card.Title>
                 </Card.Body>
               </div>
               {/* </Card> */}
@@ -79,7 +81,7 @@ export const Cards = () => {
               />
               <div className="mt-3">
                 <Card.Body>
-                  <Card.Title>DECANTS & SPLITS</Card.Title>
+                  <Card.Title>Decants & Splits</Card.Title>
                 </Card.Body>
               </div>
               {/* </Card> */}
@@ -93,13 +95,24 @@ export const Cards = () => {
               />
               <div className="mt-3">
                 <Card.Body>
-                  <Card.Title>BATH & BODY CARE</Card.Title>
+                  <Card.Title>Bath & Body Care</Card.Title>
                 </Card.Body>
               </div>
               {/* </Card> */}
             </Col>
           </Row>
         </Container>
+      </div>
+
+      <div className="textc">
+        <div className="mt-5">
+          <p>
+            <b>CLIENTS WHO SHOP THEIR </b>
+            <p>
+              <b>PERFUME FROM US</b>
+            </p>
+          </p>
+        </div>
       </div>
     </>
   );
